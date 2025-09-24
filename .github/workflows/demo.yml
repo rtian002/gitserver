@@ -1,6 +1,6 @@
 name: TEST_VAR
 on:
-  workflow_dispatch:
+  workflow_dispatch
 env:
   VAR_TEST: ${{vars.VAR_test}}
 jobs:
