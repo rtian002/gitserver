@@ -8,4 +8,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: echo
-        run: echo $VAR_TEST
+        run: |
+          echo "AAA ： $VAR_TEST"
+          bash 0.sh
+        
