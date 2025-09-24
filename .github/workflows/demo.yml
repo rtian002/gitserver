@@ -1,0 +1,10 @@
+name: TEST_VAR
+on:
+  workflow_dispatch:
+
+jobs:
+  job1-test:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: echo
+        run: echo 'Hello World'
