@@ -7,7 +7,9 @@ jobs:
   job1-test:
     runs-on: ubuntu-22.04
     steps:
-      - name: echo
+      - name: 切换目录
+        uses: actions/checkout@v3 
+      - name: 执行脚本
         run: |
           echo "AAA ： $VAR_TEST"
           bash 0.sh
